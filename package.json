@@ -1,6 +1,6 @@
 {
   "name": "@massif/ssmr-data",
-  "version": "1.6.6",
+  "version": "1.6.7",
   "description": "Player-facing COMP/CON data for Siren's Song, A Mountain's Remorse",
   "main": "index.js",
   "scripts": {
