@@ -33,7 +33,7 @@
     "traits": [
       {
         "name": "Untenable Power",
-        "description": "1/round. the Empakaai may give a Hull check or save it forced +1 difficulty"
+        "description": "1/round. the Empakaai may give a Hull check or save it forced +1 difficulty."
       },
       {
         "name": "Indomitable Force",
@@ -41,8 +41,8 @@
       }
     ],
     "core_system": {
-      "name": "Iku’s Hand",
-      "description": "<i><p>Ololade Omotanwa’s sculpted mountain. - his message inscribed under the cold-span limiters of Iku’s Hand.</p><p>“I gift to you a mountain.</p><p> Rolling hills, curvilinear egresses, a shattered spine, and a crown glazed in voluminous spires. Let this be a treaty to your foes. Your promise is that their eyes will witness the beauty that is Iku’s hands before they descend to Kalunga. Hell, fire and dark ash, together they will burn cavities in souls.</p><p>I gift you my mountain.”</p></i>",
+      "name": "The Descent to Kalunga",
+      "description": "<i><p>Upon Ololade Omotanwa’s sculpted mountain a message is inscribed under the cold-span limiters of Iku’s Hand.</p><p>“I gift to you a mountain.</p><p> Rolling hills, curvilinear egresses, a shattered spine, and a crown glazed in voluminous spires. Let this be a treaty to your foes. Your promise is that their eyes will witness the beauty that is Iku’s hands before they descend to Kalunga. Hell, fire and dark ash, together they will burn cavities in souls.</p><p>I gift you my mountain.”</p></i>",
       "active_name": "Marrow Anchors",
       "use": "Mission",
       "active_effect": "For the rest of the scene, while Grappling you count as 1 Size larger than the combined size of all targets you’re currently Grappling. Additionally, you gain these benefits for the rest of the scene:",
@@ -50,7 +50,7 @@
         {
           "name": "Iku’s Hand",
           "activation": "Free",
-          "detail": " After successfully hitting a character with a melee weapon attack, the Empakaai may Grapple the target as a free action. On a success, the target is pulled adjacent to you and Grappled"
+          "detail": " After successfully hitting a character with a melee weapon attack, the Empakaai may Grapple the target as a free action. On a success, the target is pulled adjacent to you and Grappled."
         },
         {
           "name": "Catalytic Infusor",
