@@ -4,7 +4,13 @@
     "name": "Esu's Eyes Ocular Apparatus",
     "type": "Mech",
     "label": "Resource",
-    "description": "At the start of combat you may choose to activate this gear, allowing you to ignore hostile characters’ Hidden and Invisible statuses for the duration of the combat. Upon use, this piece of gear is destroyed."
+    "description": "At the start of combat you may choose to activate this gear, allowing you to ignore hostile characters' Hidden and Invisible statuses for the duration of the combat. Upon use, this piece of gear is destroyed.",
+    "active_effects": [
+      {
+        "name": "Esu's Eyes",
+        "detail": "You ignore hostile characters' Hidden and Invisible statuses for the duration of combat. Upon use, this gear is destroyed."
+      }
+    ]
   },
   {
     "id": "reserve_compulsory_scope_upgrade",
@@ -26,7 +32,16 @@
     "name": "Aganju Tower",
     "type": "Mech",
     "label": "Resource",
-    "description": "After being hit by a ranged or melee attack you may choose to reduce the damage to 0. Upon use, this piece of gear is destroyed."
+    "description": "After being hit by a ranged or melee attack you may choose to reduce the damage to 0. Upon use, this piece of gear is destroyed.",
+    "actions": [
+      {
+        "name": "Aganju Tower",
+        "activation": "Reaction",
+        "frequency": "1/mission",
+        "trigger": "You are hit by a ranged or melee attack.",
+        "detail": "Reduce the damage to 0. This gear is destroyed."
+      }
+    ]
   },
   {
     "id": "reserve_oba_liquidmetal_cloak",
@@ -73,6 +88,7 @@
     "type": "Mech",
     "label": "Resource",
     "description": "1/round, when you Ram or Grapple, you deal +1d6 kinetic damage on hit and Improvised Attacks deal an additional +1d6 damage. Upon taking structure damage, this piece of gear is destroyed.",
+    "damage": [{ "type": "Kinetic", "val": "1d6" }],
     "synergies": [
       {
         "locations": ["grapple", "ram", "improvised_attack"],
@@ -90,7 +106,9 @@
       {
         "name": "Souled Out Class-VI Anti-Materiel Rifle",
         "activation": "Full",
-        "detail": "As a full action before you do anything other than protocols on your turn, you may make a ranged attack with this weapon at a character within line of sight and Range 20. On hit, they take 3d6 kinetic damage. After firing this weapon, roll a d20: on 10 or less, take 1d3 explosive damage as the rifle blows up and is destroyed."
+        "detail": "As a full action before you do anything other than protocols on your turn, you may make a ranged attack with this weapon at a character within line of sight and Range 20. On hit, they take 3d6 kinetic damage. After firing this weapon, roll a d20: on 10 or less, take 1d3 explosive damage as the rifle blows up and is destroyed.",
+        "range": [{ "type": "Range", "val": 20 }],
+        "damage": [{ "type": "Kinetic", "val": "3d6" }]
       }
     ]
   }
