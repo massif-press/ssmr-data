@@ -3,7 +3,7 @@
   "author": "NHP SHAKA",
   "description": "Player-facing COMP/CON data for Siren's Song, A Mountain's Remorse",
   "item_prefix": "ssmr1",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "image_url": "https://d2c79xe1p61csc.cloudfront.net/other/sirenssong1_cover.jpg",
   "website": "https://massif-press.itch.io/sirens-song",
   "version_history": [
@@ -16,6 +16,11 @@
       "version": "2.0.1",
       "date": "2026-05-29",
       "changes": ["Added missing EMI Theater effect."]
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-10-14",
+      "changes": ["Fixed Psionic Piston markup."]
     }
   ],
   "v3": true
